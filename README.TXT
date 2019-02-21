@@ -1,0 +1,6 @@
+THEODORE GRAHAM
+11:25PM 2/20/2019
+
+Outside resources: used Google to freshen up on certain methods which I was still wrapping my head around.
+
+Notes: I didn't get my game ending to work. I have been working on this part for hours but I couldn't get it to work. Where I got stuck was trying to make a counter named 'kill' in which every time the user got something wrong it was added to. This would have worked well, but the code which checked whether the user had gotten an answer correct was inside a for loop, so the movie length would get added to kill instead of added by 1. So I tried dividing kill by the movie length, but then came to realize that there wasn't a possible way to do this inside the for loop because it would only ever work for the first user input, not every time the user had input. So, I tried creating a new array which would track the user's guesses and backcheck that against the correct answers, and if the number of times the user had answered incorrect answers exceeded 7 the game would end. It didn't work however. So anyways, I could have tried to get some points for what I had barely working but the game would end too early so I chose not to include it, but I'm leaving this here to at least let you know I tried it, had something partially working, and did my best. Next time I'll go to office hours ;)
